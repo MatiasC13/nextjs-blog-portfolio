@@ -19,15 +19,15 @@ const Index = () => (
             <div className="col-md-8">
               <h1>Matias Cabral</h1>
               <h3>Front End Developer</h3>
-              <p>
-                Interesado en TI y todo en su órbita. Recientemente comencé a
-                sentirme fascinado por la programación web, por ejemplo:
-                desarrollando aplicaciones y construyendo sitios web. Estoy
-                buscando una compañía dispuesta a ofrecerme una ubicación entre
-                sus desarrolladores. A cambio, ofrecería todo mi compromiso y
-                sería una adición agradable y amigable para su equipo. Por lo
-                tanto, actualmente estoy buscando un trabajo o una pasantía como
-                un front-end desarrollador.
+              <p className="text-justify">
+                Interesado en TI, recientemente comencé a sentirme fascinado por
+                la programación web, por ejemplo: desarrollando aplicaciones y
+                construyendo sitios web. Estoy buscando una compañía dispuesta a
+                ofrecerme una ubicación entre sus desarrolladores. A cambio,
+                ofrecería todo mi compromiso y sería una adición agradable y
+                amigable para su equipo. Por lo tanto, actualmente estoy
+                buscando un trabajo o una pasantía como un front-end
+                desarrollador.
               </p>
               <Link href="/contact">
                 <a className="btn btn-outline-light">Contáctame</a>
@@ -70,7 +70,7 @@ const Index = () => (
         {/* Experience */}
         <div className="card bg-light animate__animated animate__fadeInRight">
           <div className="card-body">
-            <h1>Experience</h1>
+            <h1>Experiencia</h1>
 
             <ul>
               {/* List Item Experience */}
@@ -95,18 +95,13 @@ const Index = () => (
 
             <ul>
               {/* List Item Formación */}
-              {studies.map(({ title, from, to }, index) => (
+              {studies.map(({ title, from, to, description }, index) => (
                 <li key={index}>
                   <h3>{title}</h3>
                   <h5>
                     {from} {to ? `- ${to}` : "- current"}
                   </h5>
-                  <p>
-                    Sumergido en las mejores prácticas del desarrollo web,
-                    trabajando con HTML y CSS. Optimizando al máximo el
-                    desarrollo de sitios web, implementando prácticas de
-                    versionado de código con GIT.
-                  </p>
+                  <p className="text-justify">{description}</p>
                 </li>
               ))}
             </ul>
@@ -135,8 +130,10 @@ const Index = () => (
                     </div>
                     <div className="card-body">
                       <h3>{name}</h3>
-                      <p>{description}</p>
-                      <a href={link}>Ver proyecto</a>
+                      <p className="text-justify">{description}</p>
+                      <a href={link} target="_blank">
+                        Ver proyecto
+                      </a>
                     </div>
                   </div>
                 </div>
