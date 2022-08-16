@@ -6,6 +6,10 @@ div#__next > div {
   height: 100%;
 }
 
+nav {
+  padding: 20px !important;
+}
+
 .overflow {
   height: 50%;
   overflow: hidden;
