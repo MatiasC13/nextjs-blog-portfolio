@@ -2,12 +2,13 @@ import React from "react";
 import { useState } from "react";
 import Layout from "../components/Layout";
 import { validateEmail } from "../utils/utils";
+import Link from "next/link";
 
 const Contact = () => {
   const [user, setUser] = useState({ email: "", msg: "" });
   const [error, setError] = useState({
     error: false,
-    msg: "verifica los campos",
+    msg: "",
   });
 
   const onChangeInput = (e) => {
@@ -27,13 +28,19 @@ const Contact = () => {
         body: JSON.stringify(user),
       });
     } else {
-      setError((prev) => ({ ...prev, error: true }));
+      setError((prev) => ({ msg: "verifica los campos", error: true }));
     }
   };
 
   return (
     <Layout>
       <div className="mb-3">
+        <div>
+          <Link href="/">
+            <a className="btn btn-primary">Volver</a>
+          </Link>
+        </div>
+        <br />
         <label htmlFor="exampleFormControlInput1" className="form-label">
           correo electróncio
         </label>

@@ -13,21 +13,21 @@ const Index = () => (
               <img
                 src="/Foto.png"
                 alt="Matias Cabral"
-                className="img-fluid rounded-circle"
+                className="img-fluid rounded-circle foto"
               />
             </div>
             <div className="col-md-8">
               <h1>Matias Cabral</h1>
               <h3>Front End Developer</h3>
               <p>
-                Cortés y entusiasta, estoy interesado en TI y todo en su órbita.
-                Recientemente comencé a sentirme fascinado por la programación
-                web, por ejemplo: desarrollando aplicaciones y construyendo
-                sitios web. Estoy buscando una compañía dispuesta a ofrecerme
-                una ubicación entre sus desarrolladores. A cambio, ofrecería
-                todo mi compromiso y sería una adición agradable y amigable para
-                su equipo. Por lo tanto, actualmente estoy buscando un trabajo o
-                una pasantía como un front-end desarrollador.
+                Interesado en TI y todo en su órbita. Recientemente comencé a
+                sentirme fascinado por la programación web, por ejemplo:
+                desarrollando aplicaciones y construyendo sitios web. Estoy
+                buscando una compañía dispuesta a ofrecerme una ubicación entre
+                sus desarrolladores. A cambio, ofrecería todo mi compromiso y
+                sería una adición agradable y amigable para su equipo. Por lo
+                tanto, actualmente estoy buscando un trabajo o una pasantía como
+                un front-end desarrollador.
               </p>
               <Link href="/contact">
                 <a className="btn btn-outline-light">Contáctame</a>
@@ -102,10 +102,10 @@ const Index = () => (
                     {from} {to ? `- ${to}` : "- current"}
                   </h5>
                   <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Sint excepturi ea explicabo. Illum suscipit illo, porro
-                    quisquam voluptatem officiis fugiat vel animi aliquam
-                    inventore rem. Quo laudantium temporibus cupiditate. Aut?
+                    Sumergido en las mejores prácticas del desarrollo web,
+                    trabajando con HTML y CSS. Optimizando al máximo el
+                    desarrollo de sitios web, implementando prácticas de
+                    versionado de código con GIT.
                   </p>
                 </li>
               ))}
