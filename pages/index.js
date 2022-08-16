@@ -12,7 +12,7 @@ const Index = () => (
             <div className="col-md-4">
               <img
                 src="/foto.png"
-                alt=""
+                alt="Matias Cabral"
                 className="img-fluid rounded-circle"
               />
             </div>
