@@ -29,7 +29,7 @@ const Index = () => (
                 su equipo. Por lo tanto, actualmente estoy buscando un trabajo o
                 una pasantía como un front-end desarrollador.
               </p>
-              <Link href="/hireme">
+              <Link href="/contact">
                 <a className="btn btn-outline-light">Contáctame</a>
               </Link>
             </div>
@@ -89,7 +89,7 @@ const Index = () => (
             </Link> */}
           </div>
         </div>
-        <div className="card bg-light animate__animated animate__fadeInRight">
+        <div className="card bg-light animate__animated animate__fadeInRight margin">
           <div className="card-body">
             <h1>Formación académica</h1>
 
