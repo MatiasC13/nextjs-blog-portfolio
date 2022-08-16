@@ -52,6 +52,7 @@ const Contact = () => {
   return (
     <Layout>
       <div className="mb-3">
+        <h1 className="text-center">Contáctame</h1>
         <div>
           <Link href="/">
             <a className="btn btn-primary">Volver</a>

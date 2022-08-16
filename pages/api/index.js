@@ -21,9 +21,10 @@ export default function (req, res) {
       const mailData = {
         from: "servicio.notificaciones.compras@gmail.com",
         to: "matiascabralmendez@gmail.com",
+        cc: email,
         // cco: [ownerEmail, "servicio.notificaciones.compras@gmail.com"],
 
-        subject: `Contacto Portfolio`,
+        subject: `Contacto Matias Cabral`,
 
         html: `<p>De:${email}</p><p>${msg}</p>`,
       };
