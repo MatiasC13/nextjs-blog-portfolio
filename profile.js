@@ -96,7 +96,7 @@ export const projects = [
     name: "Discos Shop React",
     description: "Ecommerce usando Firebase como persistencia.",
     image: "portfolio3.png",
-    link: "https://dry-plains-91142.herokuapp.com/",
+    link: "https://shop-teal-psi.vercel.app/",
   },
   {
     name: "Ecommerce Next js",
