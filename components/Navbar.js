@@ -29,7 +29,9 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link href="https://github.com/MatiasC13">
-                <a className="nav-link">Github</a>
+                <a className="nav-link" target="_blank">
+                  Github
+                </a>
               </Link>
             </li>
           </ul>

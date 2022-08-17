@@ -3,7 +3,9 @@ import nodemailer from "nodemailer";
 export default function (req, res) {
   if (req.method === "POST") {
     try {
-      const { msg, email } = req.body;
+      // console.log(req.body);
+      const { msg, email } = JSON.parse(req.body);
+      // console.log(email, msg);
       if (!msg || !email) {
         throw new Error("Invalid request body");
       }
