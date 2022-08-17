@@ -41,7 +41,7 @@ const Index = () => (
     {/* Second section */}
 
     <section className="row">
-      <div className="col-xs-12 col-md-4 py-2">
+      <div className=" col-md-4 py-2">
         <div className="card bg-light animate__animated animate__fadeInLeft">
           <div className="card-body">
             <h1>Habilidades</h1>
@@ -66,7 +66,7 @@ const Index = () => (
         </div>
       </div>
 
-      <div className="col-xs-12 col-md-8 py-2">
+      <div className="col-md-8 py-2">
         {/* Experience */}
         <div className="card bg-light animate__animated animate__fadeInRight">
           <div className="card-body">
@@ -116,7 +116,7 @@ const Index = () => (
     {/* Porfolio */}
     <section>
       <div className="row">
-        <div className="col-xs-12 col-md-12">
+        <div className="col-md-12">
           <div className="card card-body bg-dark">
             <div className="row">
               <div className="col-md-12 my-2">
