@@ -13,7 +13,7 @@ const Index = () => (
               <img
                 src="/Foto.png"
                 alt="Matias Cabral"
-                className="img-fluid rounded-circle foto"
+                className="img-fluid rounded-circle"
               />
             </div>
             <div className="col-md-8">
@@ -95,13 +95,16 @@ const Index = () => (
 
             <ul>
               {/* List Item Formación */}
-              {studies.map(({ title, from, to, description }, index) => (
+              {studies.map(({ title, from, to, description, link }, index) => (
                 <li key={index}>
-                  <h3>{title}</h3>
+                  <h3 className="margin">{title}</h3>
                   <h5>
                     {from} {to ? `- ${to}` : "- current"}
                   </h5>
                   <p className="text-justify">{description}</p>
+                  <a href={link} target="_blank">
+                    Ver certificado
+                  </a>
                 </li>
               ))}
             </ul>

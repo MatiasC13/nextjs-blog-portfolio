@@ -49,22 +49,6 @@ export const skills = [
   },
 ];
 
-export const studies = [
-  {
-    title: "Desarrollo Web",
-    description:
-      "Maquetado web con HTML y CSS. Optimizando al máximo el desarrollo de sitios web, implementando prácticas de versionado de código con GIT.",
-    from: 2021,
-    to: 2022,
-  },
-  {
-    title: "JavaScript",
-    description: "Desarrollo Front End con JavaScript.",
-    from: 2022,
-    to: 2022,
-  },
-];
-
 export const experiences = [
   {
     title: "UI Design",
@@ -72,6 +56,24 @@ export const experiences = [
       "Responsable del diseño UI en proyecto multiplataforma ecommerce, desarrollado con Nextjs, Chakra UI",
     from: 2022,
     to: 2022,
+  },
+];
+
+export const studies = [
+  {
+    title: "Desarrollo Web",
+    description:
+      "Maquetado web con HTML y CSS. Optimizando al máximo el desarrollo de sitios web, implementando prácticas de versionado de código con GIT.",
+    from: 2021,
+    to: 2022,
+    link: "/desarrolloWeb",
+  },
+  {
+    title: "JavaScript",
+    description: "Desarrollo Front End con JavaScript.",
+    from: 2022,
+    to: 2022,
+    link: "/javascript",
   },
 ];
 
