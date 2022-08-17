@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 import PropTypes from "prop-types";
 import NProgress from "nprogress";
 import nProgress from "nprogress";
-import classNames from "classname";
+import classNames from "classnames";
 
 const Layout = ({ children, title, footer = true, dark = false }) => {
   const router = useRouter();
