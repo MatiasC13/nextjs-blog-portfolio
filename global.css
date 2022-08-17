@@ -6,6 +6,10 @@ div#__next > div {
   height: 100%;
 }
 
+body {
+  width: 100% !important;
+}
+
 main {
   min-height: calc(100vh - 80px - 140px);
 }
