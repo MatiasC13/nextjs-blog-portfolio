@@ -32,13 +32,16 @@ export default function (req, res) {
       };
 
       transporter.sendMail(mailData, (err, info) => {
+        let dato = "";
         if (err) {
+          dato = err;
           console.log(err);
         } else {
           console.log("Email enviado exitosamente: %s", info.messageId);
+          dato = info;
         }
+        res.status(200).json({ content: req.body, status: dato });
       });
-      res.status(200).json({ content: req.body, status: "entregado" });
     } catch (error) {
       console.log("ocurrió un error: ", error);
       res.status(400).json({ error });
