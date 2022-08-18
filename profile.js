@@ -79,11 +79,17 @@ export const studies = [
 
 export const projects = [
   {
-    name: "Play Pókemon!",
+    name: "Ecommerce Next js",
     description:
-      "Maquetado web con HTML y CSS utilizando librería Bootstrap y preprocesador Saas.",
-    image: "portfolio1.png",
-    link: "https://matiasc13.github.io/playPokemon-matiasCabral/",
+      "Ecommerce optimizado de simple uso con excel como persistencia, implementando Progressive Web Application",
+    image: "portfolio4.png",
+    link: "https://simpleshop-sand.vercel.app/",
+  },
+  {
+    name: "Discos Shop React",
+    description: "Ecommerce usando Firebase como persistencia.",
+    image: "portfolio3.png",
+    link: "https://shop-teal-psi.vercel.app/",
   },
   {
     name: "Discos Shop JS Vanilla",
@@ -93,17 +99,11 @@ export const projects = [
     link: "https://matiasc13.github.io/proyectoFinalJavaScript-matiasCabral/",
   },
   {
-    name: "Discos Shop React",
-    description: "Ecommerce usando Firebase como persistencia.",
-    image: "portfolio3.png",
-    link: "https://shop-teal-psi.vercel.app/",
-  },
-  {
-    name: "Ecommerce Next js",
+    name: "Play Pókemon!",
     description:
-      "Ecommerce optimizado de simple uso con excel como persistencia, implementando Progressive Web Application",
-    image: "portfolio4.png",
-    link: "https://simpleshop-sand.vercel.app/",
+      "Maquetado web con HTML y CSS utilizando librería Bootstrap y preprocesador Saas.",
+    image: "portfolio1.png",
+    link: "https://matiasc13.github.io/playPokemon-matiasCabral/",
   },
 ];
 
