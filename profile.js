@@ -32,7 +32,7 @@ export const skills = [
     percentage: 90,
   },
   {
-    skill: "Booststrap",
+    skill: "Bootstrap",
     percentage: 100,
   },
   {
@@ -81,7 +81,7 @@ export const projects = [
   {
     name: "Play Pókemon!",
     description:
-      "Maquetado web con HTML y CSS utilizando librería Booststrap y preprocesador Saas.",
+      "Maquetado web con HTML y CSS utilizando librería Bootstrap y preprocesador Saas.",
     image: "portfolio1.png",
     link: "https://matiasc13.github.io/playPokemon-matiasCabral/",
   },
@@ -103,7 +103,7 @@ export const projects = [
     description:
       "Ecommerce optimizado de simple uso con excel como persistencia, implementando Progressive Web Application",
     image: "portfolio4.png",
-    link: "",
+    link: "https://simpleshop-sand.vercel.app/",
   },
 ];
 
