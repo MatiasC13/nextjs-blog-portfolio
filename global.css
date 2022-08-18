@@ -18,6 +18,12 @@ nav {
   margin-top: 1rem;
 }
 
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .overflow {
   height: 50%;
   overflow: hidden;
