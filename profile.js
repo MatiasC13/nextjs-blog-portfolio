@@ -44,7 +44,7 @@ export const skills = [
     percentage: 80,
   },
   {
-    skill: "Git Hub",
+    skill: "GitHub",
     percentage: 80,
   },
 ];
