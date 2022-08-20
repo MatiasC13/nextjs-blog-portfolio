@@ -30,7 +30,7 @@ const Navbar = () => {
             <li className="nav-item">
               <Link href="https://github.com/MatiasC13">
                 <a className="nav-link" target="_blank">
-                  Github
+                  GitHub
                 </a>
               </Link>
             </li>
